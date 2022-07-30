@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+:root{
+    font-size: 20px;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+a{
+    width: 100%;
+    padding: 20px;
+    background-color: gray;
+    color:white;
+    display: inline-block;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <main>
+    <h1>Rules:</h1>
+    <ol>
+        <li>ArrowUp: Jump</li>
+        <li>ArrowDown: 2 moves
+            <ul>
+                <li>if running, you will sit</li>
+            <li>if jumping, you will Dive</li>
+            </ul></li>
+        <li>ArrowLeft:Move Left</li>
+        <li>ArrowRight: Move Right</li>
+        <li>Enter: Roll</li>
+        <li>Rolling and Diving are your only attacks</li>
+        <li>Sitting makes you stay still</li>
+        <li> Do not get hit if you are not Diving/rolling</li>
+        <li> You have 2min</li>
+        <li>you have lives so use them wisely</li>
+    </ol>
+    <h2>Press play to start</h2>
+    <a href="./game.html" target="_self">Play</a>
+</main>
+</body>
+</html>
