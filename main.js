@@ -42,7 +42,7 @@ window.addEventListener("load", function () {
       this.maxTime=300000;
       this.gameOver=false;
       this.maxParticles=50;
-      this.maxScore=500;
+      this.maxScore=300;
     }
     update(deltaTime) {
         this.time+=deltaTime;
