@@ -25,7 +25,7 @@ export class UI {
     if(this.game.gameOver){
         context.textAlign="center";
         context.font=this.fontSize*2+ 'px '+this.fontFamily;
-        if(this.game.score>300 && !this.game.lives<=0 && this.game.time >this.game.maxTime){
+        if(this.game.score>200 && !this.game.lives<=0 && this.game.time >this.game.maxTime){
             context.fillText("Meh",this.game.width*.5,this.game.height*.5 - 20)
             context.font=this.fontSize*.7+ 'px '+this.fontFamily;
             context.fillText("You barely made it tho",this.game.width*.5,this.game.height*.5+20)
