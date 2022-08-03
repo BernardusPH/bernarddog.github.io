@@ -26,9 +26,9 @@ export class UI {
         context.textAlign="center";
         context.font=this.fontSize*2+ 'px '+this.fontFamily;
         if(this.game.score>200 && !this.game.lives<=0 && this.game.time >this.game.maxTime){
-            context.fillText("Meh",this.game.width*.5,this.game.height*.5 - 20)
+            context.fillText("Yes",this.game.width*.5,this.game.height*.5 - 20)
             context.font=this.fontSize*.7+ 'px '+this.fontFamily;
-            context.fillText("You barely made it tho",this.game.width*.5,this.game.height*.5+20)
+            context.fillText("You found an easter egg",this.game.width*.5,this.game.height*.5+20)
         }else if(this.game.score>=this.game.maxScore && this.game.lives>0){
             context.fillText("Oheeeeeyaaaa",this.game.width*.5,this.game.height*.5 - 20)
             context.font=this.fontSize*.7+ 'px '+this.fontFamily;
